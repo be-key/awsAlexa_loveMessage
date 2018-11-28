@@ -1,0 +1,33 @@
+{
+	"manifest": {
+		"publishingInformation": {
+			"fr-FR": {
+				"summary": "Lis des messages d'amour et des mots doux"
+				"exemplePhrases": [
+					"Dis moi un message d'amour",
+                        		"Dis moi un mot d'amour",
+                        		"Dis moi un mot doux"
+				],
+				"kewords": [
+					"message",
+					"mot",
+					"amour"
+				],
+				"name": "Love Message",
+				"description": "" 
+			},
+			"isAvailableWorldwide": true,
+			"testingInstructions": "Sample Testing Instructions.",
+			"category": "EDUCATION_AND_REFERENCE",
+			"distributionCountries": []
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sourceDir": "lambda/custom"
+				}
+			}
+		},
+		"manifestVersion": "1.0"
+	}
+}
